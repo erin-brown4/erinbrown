@@ -10,10 +10,43 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
+    .container{
+      max-width: 1600px;
+      margin: auto;
+      background: #f2f2f2;
+      overflow: auto;
+    }
+    .gallery{
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 390px;
+    }
+    .gallery img{
+      width: 100%;
+      height: auto;
+    }
+    .desc{
+      padding: 15px;
+      text-align: center;
+    }
         .fa-facebook{
             padding-top: 9px;
             padding-left: 10px;
             font-size: 25px;
+            color: lightgrey;
+        }
+        .fa-instagram{
+            padding-top: 9px;
+            padding-left: 15px;
+            font-size: 25px;
+            color: lightgrey;
+        }
+        .fa-pinterest{
+          padding-top: 9px;
+          padding-left: 15px;
+          font-size: 25px;
+          color: lightgrey;
         }
         .navbar{
             margin-bottom: 0;
@@ -137,6 +170,7 @@ body {
             background-color: #b6c5be;
             padding: 15px;
             font-size: 45px;
+            text-align: center;
         }
         @font-face{
             font-family:'Michael';
@@ -189,62 +223,116 @@ body {
             </div>
           </li>
             <li><a href="https://www.facebook.com/Erin-Brown-107171578152078"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.pinterest.com/erinb173/_saved/"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="https://www.instagram.com/sweet.e.l.b/"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
         </nav>
 <!--End of Navbar-->
 <!--Start of Image Grid-->
-<h3><center>print design</center></h3>
-<div class="row">
-  <div class="column">
-    <img src="images/magazine.jpg" style="width:100%" alt="Magazine">
-    <img src="images/button-eyes.jpg" style="width:100%" alt="Button Eyes">
-    <img src="images/flyer.jpg" style="width:100%" alt="Amethyst">
-    <img src="images/upper-crust1.jpg" style="width:100%" alt="Upper Crust">
+
+<div class="container">
+  <div class="gallery">
+    <a target="_self" href="images/flyer1.jpg">
+    <center><img src="images/flyer1.jpg" alt="Amethyst Bay Flyer" style="width:300px"></center>
+      <center><div class="desc">Amethyst Bay: Flyer Mockup</div>
+      <p>Company Branding</p></center>
   </div>
-  <div class="column">
-     <img src="images/blair.jpg" style="width:100%" alt="Mary Blair">
-     <img src="images/blair2.jpg" style="width:100%" alt="Mary Blair2">
-     <img src="images/moross.jpg" style="width:100%" alt="Kate Moross">
-     <img src="images/moross2.jpg" style="width:100%" alt="Kate Moross2">
-     <img src="images/upper-crust2.jpg" style="width:100%" alt="Upper Crust2">
-     <img src="images/upper-crust3.jpg" style="width:100%" alt="Upper Crust3">
-  </div>
-  <div class="column">
-   <img src="images/brochure.jpg" style="width:100%" alt="Brochure">
-   <img src="images/brochure2.jpg" style="width:100%" alt="Brochure2">
-   <img src="images/tent.jpg" style="width:100%" alt="Table Tent">
-   <img src="images/tent2.jpg" style="width:100%" alt="Table Tent2">
-  </div>
-  <div class="column">
-   <img src="images/menu.jpg" style="width:100%" alt="Menu">
-   <img src="images/menu2.jpg" style="width:100%" alt="Menu2">
-   <img src="images/menu3.jpg" style="width:100%" alt="Menu3">
-  </div>
+    <div class="gallery">
+      <a target="_self" href="images/moxie-mag.jpg">
+      <center><img src="images/moxie-mag.jpg" alt="Moxie Mag" style="width:300px"></center>
+      <center><div class="desc">Moxie Magazine: Cover Mockup</div>
+        <p>Company Branding</p></center>
 </div>
-<!--End of Image Grid-->
-<!--Start of Image Grid (web)-->
-<h3><center>web design</center></h3>
- <div class="row">
-  <div class="column">
-    <img src="images/webpage.png" style="width:100%" alt="Pasta Amore Webpage">
+<div class="gallery">
+  <a target="_self" href="images/letterhead1.png">
+  <center><img src="images/letterhead1.png" alt="Letterhead" style="width:300px"></center>
+    <center><div class="desc">Upper Crust Bakery: Letterhead Mockup</div>
+    <p>Company Branding</p></center>
+</div>
+    <div class="gallery">
+      <a target="_self" href="images/envelope1.png">
+      <center><img src="images/envelope1.png" alt="Envelope1" style="width:300px"></center>
+        <center><div class="desc">Upper Crust Bakery: Envelope Mockup</div>
+        <p>Company Branding</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/businesscard1.png">
+  <center><img src="images/businesscard1.png" alt="Business Card" style="width:300px"></center>
+    <center><div class="desc">Upper Crust Bakery: Business Card</div>
+    <p>Company Branding</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/eila-jar.jpg">
+  <center><img src="images/eila-jar.jpg" alt="Eila Jar" style="width:300px"></center>
+    <center><div class="desc">Eila Skincare: Jar Mockup</div>
+    <p>Company Branding</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/whitney.jpg">
+  <center><img src="images/whitney.jpg" alt="Whitney Houston" style="width:300px"></center>
+    <center><div class="desc">Typographical Portrait: Whitney Houston</div>
+    <p>Commission Work</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/holly.jpg">
+  <center><img src="images/holly.jpg" alt="Dog Portrait Commission" style="width:300px"></center>
+    <center><div class="desc">Personalized Pet Portrait</div>
+    <p>Commission Work</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/postcard1.jpg">
+  <center><img src="images/postcard1.jpg" alt="Postcard 1" style="width:300px"></center>
+    <center><div class="desc">Nature Photos Series: Snow Cap Postcard</div>
+    <p>Personal Photo Series</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/postcard2.jpg">
+  <center><img src="images/postcard2.jpg" alt="Whitney Houston" style="width:300px"></center>
+    <center><div class="desc">Nature Photos Series: Evergreen Postcard</div>
+    <p>Personal Photo Series</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/nature1.jpg">
+  <center><img src="images/nature1.jpg" alt="Nature Magazine" style="width:300px"></center>
+    <center><div class="desc">Nature Photos Series: Nature Magazine Mockup</div>
+    <p>Personal Photo Series</p></center>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/desk-mockup.jpg">
+  <center><img src="images/desk-mockup.jpg" alt="Desk Mockup" style="width:300px"></center>
+    <center><div class="desc">Nature Photos Series: Desk Photos Mockup</div>
+    <p>Personal Photo Series</p></center>
+</div>
+<p> <a href=""></a>
+<div class="gallery">
+  <a target="_self" href="images/alice1.jpg">
+  <center><img src="images/alice1.jpg" alt="alice1" style="width:300px"></center>
+    <center><div class="desc">Alice Madness Returns: Framed Diptych</div>
+    <p>Personal Photo Series</p></center>
+</div><div class="gallery">
+  <a target="_self" href="images/alice2.jpg">
+  <center><img src="images/alice2.jpg" alt="Alice 2" style="width:300px"></center>
+    <center><div class="desc">Alice Madness Returns: Game Box Poster</div>
+    <p>Personal Photo Series</p></center>
+</div>
+<p><a href=""></a>
+</div>
+<center><h3>pdf project files</h3></center>
+<center><p>Commissioned Wedding Coloring Book PDF file: <a href="images/coloringbook2.pdf">Click Here.</a></center>
+<center><p>Pasta Amore Company Branding Suite PDF file: <a href="images/pasta-amore.pdf">Click Here.</a></center>
 
 
-  </div>
- <div class="column">
-    <img src="images/webpage2.png" style="width:100%" alt="Pasta Amore Webpage2">
-      <img src="images/webpage3.png" style="width:100%" alt="Pasta Amore Webpage3">
 
-  </div>
-      <div class="column">
-          <img src="images/webpage5.png" style="width:100%" alt="Pasta Amore Webpage5">
-          <img src="images/Banner-Ad.gif" style="width:100%" alt="Banner Ad">
-    </div>
-      <div class="column">
-       <img src="images/webpage4.png" style="width:100%" alt="Pasta Amore Webpage4">
-  </div>
-    </div>
-<!--End of Image Grid (web)-->
+
+
+
+
+
+
+
+
+
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

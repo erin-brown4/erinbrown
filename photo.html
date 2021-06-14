@@ -11,10 +11,43 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
+    .container{
+      max-width: 1600px;
+      margin: auto;
+      background: #f2f2f2;
+      overflow: auto;
+    }
+    .gallery{
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 390px;
+    }
+    .gallery img{
+      width: 100%;
+      height: auto;
+    }
+    .desc{
+      padding: 15px;
+      text-align: center;
+    }
         .fa-facebook{
           padding-top: 9px;
           padding-left: 10px;
           font-size: 25px;
+          color: lightgrey;
+        }
+        .fa-instagram{
+            padding-top: 9px;
+            padding-left: 15px;
+            font-size: 25px;
+            color: lightgrey;
+        }
+        .fa-pinterest{
+          padding-top: 9px;
+          padding-left: 15px;
+          font-size: 25px;
+          color: lightgrey;
         }
         .navbar {
             margin-bottom: 0;
@@ -46,19 +79,6 @@
             font-family: 'Michael';
         }
 
-        .column {
-            float: center;
-            width: 50%;
-            padding: 5px;
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .row:after {
-            content: "";
-            clear: both;
-            display: table;
-        }
 
         .img-logo {
             width: 100%;
@@ -81,6 +101,7 @@
         p {
             font-family: 'Calibri';
             font-size: 18px;
+            text-align: center;
         }
 
         footer {
@@ -102,54 +123,12 @@
             padding: 32px;
         }
 
-        .row {
-            display: -ms-flexbox;
-            /* IE10 */
-            display: flex;
-            -ms-flex-wrap: wrap;
-            /* IE10 */
-            flex-wrap: wrap;
-            padding: 0 4px;
-        }
-        /* Create four equal columns that sits next to each other */
-
-        .column {
-            -ms-flex: 25%;
-            /* IE10 */
-            flex: 25%;
-            max-width: 25%;
-            padding: 0 4px;
-        }
-
-        .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: 100%;
-        }
-        /* Responsive layout - makes a two column-layout instead of four columns */
-
-        @media screen and (max-width: 800px) {
-            .column {
-                -ms-flex: 50%;
-                flex: 50%;
-                max-width: 50%;
-            }
-        }
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
-        @media screen and (max-width: 600px) {
-            .column {
-                -ms-flex: 100%;
-                flex: 100%;
-                max-width: 100%;
-            }
-        }
-
         h3 {
             font-family: 'Michael';
             background-color: #b6c5be;
             padding: 15px;
             font-size: 45px;
+            text-align: center;
         }
         @font-face{
             font-family:'Michael';
@@ -203,45 +182,63 @@
                     </div>
                 </li>
                   <li><a href="https://www.facebook.com/Erin-Brown-107171578152078"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.pinterest.com/erinb173/_saved/"><i class="fab fa-pinterest"></i></a></li>
+                  <li><a href="https://www.instagram.com/sweet.e.l.b/"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </nav>
     <!--End of Navbar-->
-    <!--Start of Image Grid-->
-    <h3><center>photography</center></h3>
-    <div class="row">
-        <div class="column">
-            <img src="images/berries.jpg" style="width:100%" alt="Berries">
-            <img src="images/nap.jpg" style="width:100%" alt="Nap">
-            <img src="images/evergreen.JPG" style="width:100%" alt="Evergreen">
-            <img src="images/rose.jpg" style="width:100%" alt="Rose">
-            <img src="images/walk.jpg" style="width:100%" alt="Walk">
-        </div>
-        <div class="column">
-            <img src="images/ash.JPG" style="width:100%" alt="Model">
-            <img src="images/reflection.jpg" style="width:100%" alt="Reflection">
-            <img src="images/snow-cap.JPG" style="width:100%" alt="Snow Cap">
-            <img src="images/reserve.jpg" style="width:100%" alt="Reserve">
-            <img src="images/christmas.jpg" style="width:100%" alt="Christmas">
-        </div>
-        <div class="column">
-            <img src="images/hedge-ball.jpg" style="width:100%" alt="Hedge Ball">
-            <img src="images/baby.JPG" style="width:100%" alt="Baby">
-            <img src="images/kcmo.jpg" style="width:100%" alt="KCMO">
-            <img src="images/floral.jpg" style="width:100%" alt="Floral">
-            <img src="images/yellow.jpg" style="width:100%" alt="Yellow">
-            <img src="images/eyes.JPG" style="width:100%" alt="Eyes">
-        </div>
-        <div class="column">
-            <img src="images/smile.JPG" style="width:100%" alt="Smile">
-            <img src="images/river.jpg" style="width:100%" alt="River">
-            <img src="images/locks.jpg" style="width:100%" alt="Locks">
-            <img src="images/trail.jpg" style="width:100%" alt="Trail">
-        </div>
-    </div>
+  <!--Start of Image Grid-->
+  <h3>photography</h3>
+<div class="container">
+    <div class="gallery">
+      <a target="_self" href="images/alice-pic1.jpg">
+      <center><img src="images/alice-pic1.jpg" alt="alice 1" style="width:300px"></center>
+        <div class="desc">Alice Madness Returns Series: 'Cheshire Cat'</div>
+        <p>Personal Photo Series</p>
+</div>
+    <div class="gallery">
+      <a target="_self" href="images/alice-pic2.jpg">
+      <center><img src="images/alice-pic2.jpg" alt="alice 2" style="width:300px"></center>
+        <div class="desc">Alice Madness Returns Series: 'Alice'</div>
+        <p>Personal Photo Series</p>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/alice-pic3.jpg">
+  <center><img src="images/alice-pic3.jpg" alt="alice 2" style="width:300px"></center>
+    <div class="desc">Alice Madness Returns Series: 'Game Box'</div>
+    <p>Personal Photo Series</p>
+</div>
+    <div class="gallery">
+      <a target="_self" href="images/berries.jpg">
+      <center><img src="images/berries.jpg" alt="Berries" style="width:350px"></center>
+        <div class="desc">Nature Photos Series: 'Berries'</div>
+        <p>Personal Photo Series</p>
+</div>
+    <div class="gallery">
+      <a target="_self" href="images/evergreen.jpg">
+      <center><img src="images/evergreen.jpg" alt="Evergreen" style="width:300px"></center>
+        <div class="desc">Nature Photo Series: 'Evergreen'</div>
+        <p>Personal Photo Series</p>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/snow-cap.jpg">
+  <center><img src="images/snow-cap.jpg" alt="Snow Cap" style="width:300px"></center>
+    <div class="desc">Nature Photo Series: 'Snow Cap'</div>
+    <p>Personal Photo Series</p>
+</div>
+<div class="gallery">
+  <a target="_self" href="images/river.jpg">
+  <center><img src="images/river.jpg" alt="River" style="height:600px"></center>
+    <div class="desc">Nature Photo Series:'River'</div>
+    <p>Personal Photo Series</p>
+</div>
+
+</div>
+
     <!--Start of Footer-->
     <footer>
-        <div class="row text-center">
+        <div class="row">
             <div class="col-md-4">
 
             </div>
